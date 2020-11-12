@@ -10,12 +10,12 @@ class BasicLexer(Lexer):
     literals = { '=', '+', '-', '/', '*', '(', ')', ',', ';' }
 
     # Define tokens
-    IF = r'IF'
-    THEN = r'THEN'
-    ELSE = r'ELSE'
-    FOR = r'FOR'
-    FUN = r'FUN'
-    TO = r'TO'
+    IF = r'if'
+    THEN = r':'
+    ELSE = r'else'
+    FOR = r'for'
+    FUN = r'def'
+    TO = r','
     ARROW = r'->'
     NAME = r'[a-zA-Z_][a-zA-Z0-9_]*'
     STRING = r'\".*?\"'
